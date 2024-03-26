@@ -1,0 +1,59 @@
+html,
+body {
+  background-color: #f0ffff;
+  width: 100%;
+}
+
+header {
+  background-color: #e6e6fa;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1:hover,
+th:hover {
+  color: #483d8b;
+}
+
+h1,
+p,
+footer {
+  text-align: center;
+}
+
+/*  Styling for the table below */
+
+table {
+  border: solid 2px black;
+  background-color: white;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: solid 1px black;
+  padding: 5px;
+}
+
+.code {
+  font-family: monospace;
+}
+
+td {
+  padding: 10px;
+}
+
+/* Hover styling for the headings below */
+
+td:hover {
+  background-color: #e6e6fa;
+}
+
+.code:hover {
+  background-color: #fffacd;
+}
+
+.desc:hover {
+  background-color: #f8f8ff;
+}
